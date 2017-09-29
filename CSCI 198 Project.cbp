@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CSCI 198 Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Components\;Systems\;Map\;Resources\;Containers\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/CSCI 198 Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-system-d" />
+					<Add library="sfml-window-d" />
+					<Add library="sfml-graphics-d" />
+					<Add library="sfml-audio-d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/CSCI 198 Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-system" />
+					<Add library="sfml-window" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-audio" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-Winvalid-pch" />
+			<Add option='-include &quot;pch/pch.h&quot;' />
+			<Add directory="C:/Users/Lunar Mare/SFML-2.4.0/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="C:/Users/Lunar Mare/SFML-2.4.0/lib" />
+		</Linker>
+		<Unit filename="AiSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="AiSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="BrainComponent.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="BrainComponent.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="CastingSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="CastingSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="CombatSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="CombatSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="GuiSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="GuiSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="LevelMap.cpp">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="LevelMap.h">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="MovementSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="MovementSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="PositionComponent.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="PositionComponent.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="PowerupComponent.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="PowerupComponent.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="PsiComponent.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="PsiComponent.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="RandomSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="RandomSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="RenderSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="RenderSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="ShadowSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="ShadowSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="SightComponent.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="SightComponent.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="SpawnerSystem.cpp">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="SpawnerSystem.h">
+			<Option virtualFolder="Systems/" />
+		</Unit>
+		<Unit filename="SpriteComponent.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="SpriteComponent.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="StatusComponent.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="StatusComponent.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="TextureContainer.h">
+			<Option virtualFolder="Containers/" />
+		</Unit>
+		<Unit filename="WorldMap.cpp">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="WorldMap.h">
+			<Option virtualFolder="Map/" />
+		</Unit>
+		<Unit filename="main.cpp" />
+		<Unit filename="pch/pch.h">
+			<Option weight="0" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
